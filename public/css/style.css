@@ -16,3 +16,15 @@ body
 {
     box-shadow: 3px 3px 10px #373737;
 }
+#btnVoltar
+{
+    float: inline-end;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    width: 100px;   
+}
+.linkVoltar, .linkVoltar::after, .linkVoltar.active, .linkVoltar:visited
+{
+    text-decoration: none;
+    color: #fff;
+}

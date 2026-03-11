@@ -18,12 +18,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">💻 Home</a>
+          <a class="nav-link" href="#">📜 Lista de Clientes de Jornada</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">📚 Treinamentos</a>
+          <a class="nav-link" href="#">Gráficos Gerais</a>
         </li>
-        <li class="nav-item dropdown">
+        <!--<li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             📚Infomações sobre produtos
           </a>
@@ -37,7 +37,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">☎ Ramais Krona</a>
-        </li>
+        </li>-->
       </ul>
        <div class="theme-switch">
   <input type="checkbox" id="switchTheme" onclick="toggleTheme()">
@@ -46,12 +46,8 @@
     <span class="icon moon">🌙</span>
     <span class="ball"></span>
   </label>
-</div>
-        <a href=""><img src="../public/src/icons/logo-acesso.jpg" width="70" title="Clique aqui para se logar" class="img-btn"></a>    
-      </div>
-  </div>
 </nav>  
-
+<button class="btn btn-danger" id="btnVoltar"><a class="linkVoltar" href="../index.php">Voltar</a></button>
 
  <script src="../public/js/tema.js"></script>
 </body>
