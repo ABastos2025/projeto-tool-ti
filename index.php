@@ -1,40 +1,23 @@
-<?php
-    session_start();
-    include("includes/conexao.php");
-?>
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Grupo Krona | Intranet</title>
+    <title>Ferramentas | T.I</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="icon" href="/public/src/icons/9.jpg" type="image">
     <link rel="stylesheet" href="public/css/style.css" type="text/css">
-    <link rel="stylesheet" href="public/css/aviso.css" type="text/css">
+    <link rel="icon" href="/src/icons/login-user.jpg" type="image">
   </head>
-  <body>
-    <?php include('includes/header.php')?>
+    <body>
+      
+      
 
 
 
 
-
-
-
-<div id="popup" class="popup">
-    <div class="popup-content">
-        <h2>Grupo Krona</h2>
-        <p>Seja bem-vindo ao sistema</p>
-        <button class="btn btn-warning" onclick="fecharPopup()">Fechar</button>
-    </div>
-</div>
-
-
-
-
-        <script src="/public/js/aviso.js"></script>
+    
+        <script src="https://whatsa.me/bt-min.js?link=https://whatsa.me/5511984036598/?t=MR%20Desenvolvimento%20em%20que%20podemos%20ajudar!!!"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-  </body>
+    </body>
 </html>
