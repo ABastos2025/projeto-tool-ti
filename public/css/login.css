@@ -1,0 +1,82 @@
+body{
+margin:0;
+padding:0;
+font-family: Arial;
+background: linear-gradient(120deg,#12171a,#184453);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+width:350px;
+}
+
+.login-box{
+background:rgb(229, 229, 229);
+padding:40px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+animation: aparecer 2s ease;
+}
+
+@keyframes aparecer{
+from{
+opacity:0;
+transform:translateY(-30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+.login-box h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.input-box{
+position:relative;
+margin-bottom:30px;
+}
+
+.input-box input{
+width:100%;
+padding:10px;
+border:none;
+border-bottom:2px solid #ccc;
+outline:none;
+}
+
+.input-box label{
+position:absolute;
+top:10px;
+left:0;
+color:#a7a2a2;
+transition:0.3s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label{
+top:-10px;
+font-size:12px;
+color:#031523;
+}
+
+button{
+width:100%;
+padding:10px;
+border:none;
+background:#021928;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:10px;
+transition:0.3s;
+}
+
+button:hover{
+background:#04121c;
+}

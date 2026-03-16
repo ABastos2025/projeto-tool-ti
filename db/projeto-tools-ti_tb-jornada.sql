@@ -16,29 +16,37 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `tb-users`
+-- Table structure for table `tb-jornada`
 --
 
-DROP TABLE IF EXISTS `tb-users`;
+DROP TABLE IF EXISTS `tb-jornada`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `tb-users` (
-  `id_user` int(11) NOT NULL AUTO_INCREMENT,
-  `nome` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `senha` varchar(255) NOT NULL,
+CREATE TABLE `tb-jornada` (
+  `id_jornada` int(11) NOT NULL AUTO_INCREMENT,
+  `nome_cliente` varchar(50) NOT NULL,
+  `responsavel` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `telefone` varchar(11) DEFAULT NULL,
+  `tecnologia` varchar(50) NOT NULL,
+  `contrato` varchar(50) NOT NULL,
+  `inicio_piloto` date NOT NULL,
+  `fim_piloto` date DEFAULT NULL,
+  `valor_licenca` varchar(20) DEFAULT NULL,
+  `quantidade_licencas` varchar(45) NOT NULL,
+  `situacao` varchar(30) DEFAULT NULL,
   `criado_em` timestamp(6) NULL DEFAULT NULL,
-  PRIMARY KEY (`id_user`)
+  PRIMARY KEY (`id_jornada`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `tb-users`
+-- Dumping data for table `tb-jornada`
 --
 
-LOCK TABLES `tb-users` WRITE;
-/*!40000 ALTER TABLE `tb-users` DISABLE KEYS */;
-/*!40000 ALTER TABLE `tb-users` ENABLE KEYS */;
+LOCK TABLES `tb-jornada` WRITE;
+/*!40000 ALTER TABLE `tb-jornada` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tb-jornada` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
